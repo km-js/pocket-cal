@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin:0;
+    font-style: "Poppins, sans-serif";
+}
+
+.container{
+    background: radial-gradient(circle, #d4a3ff, purple);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 150px;
+    display: flex;
+    width: 100%;
+    max-width: 200px; 
+}
+
+.col-1{
+    background: #fff;
+    width: 58%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.col-2{
+    background: purple;
+    width: 42%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-1 h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.col-1 h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.col-2 h3{
+font-size: 20px;
+font-weight: 500; 
+}
